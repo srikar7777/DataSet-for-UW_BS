@@ -1,0 +1,24 @@
+ID,Category,Range (m),BER,Throughput (kbps),SNR (dB),Mechanism / Technique,Algorithm / Processing
+1,rate,20,1E-04,12.0,-10.0,Broadband piezoelectric tags,Wideband backscatter demodulation
+2,rate,25,1E-04,10.0,-9.0,UWB metamaterial backscatter,UWB matched filtering
+3,rate,30,1E-03,8.0,-8.0,Higher-order modulation,QPSK / 8PSK symbol mapping
+4,rate,35,2E-03,5.0,-7.0,Broadband acoustic ID tags,Envelope detection
+5,rate,40,3E-03,4.0,-6.0,Spatial modulation,Index modulation decoding
+6,rate,45,5E-03,15.0,-5.0,Wideband scatterer arrays,Correlation detection
+7,rate,50,1E-02,20.0,-4.0,UWB metasurface,Chirp/UWB analysis
+8,rate,55,8E-03,25.0,-3.0,High-rate BPSK/QPSK,Phase-coherent demodulation
+9,rate,60,1E-02,10.0,-2.0,Broadband backscatter,Wideband FFT processing
+10,doppler,40,1E-03,0.8,-9.0,Mobile backscatter networking,Doppler prediction + filtering
+11,doppler,50,5E-03,1.0,-7.0,GKCformer prediction,Transformer-based SNR forecasting
+12,doppler,60,1E-02,1.2,-5.0,Clustered-sparse channel est.,Bayesian CE for time-varying channels
+13,doppler,80,1E-02,1.0,-3.0,TF-LOCOFORMER,Time-frequency masking
+14,doppler,100,8E-03,1.1,-1.0,Mobile reflection tracking,Doppler-resilient synchronization
+15,doppler,200,5E-03,1.5,1.0,Reconfigurable surfaces,Adaptive reflection control
+16,range,50,1E-03,3.0,-5.0,Van Atta reflector array,Retroreflective phase alignment
+17,range,300,1E-03,0.8,-3.0,Backscatter channel model,Physics-based propagation model
+18,range,300,1.5E-03,1.0,-2.0,Link budget estimation,Analytical SNR calculation
+19,range,400,2E-03,1.1,-1.0,Practical distance experiments,Field SNR sampling
+20,range,550,5E-03,1.0,-0.5,Multi-carrier excitation,Carrier diversity combining
+21,range,800,1E-02,0.5,5.0,Van Atta long-range,Path-aligned reflection
+22,range,820,2E-02,1.2,4.0,Subsea IoT link-budget,Real-ocean SNR fitting
+23,range,800,3E-02,0.9,3.0,Passive chirp de-spreading,Chirp correlation processing
